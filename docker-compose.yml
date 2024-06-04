@@ -47,7 +47,7 @@ services:
       context: .
       dockerfile: FrontDockerfile
     volumes:
-      - .:/book-hub
+      - .:/bookhub
     ports:
       - "3000:3000"
 
